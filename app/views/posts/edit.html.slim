@@ -1,0 +1,11 @@
+h1 Editing post
+
+== render 'form', post: @post
+
+=> link_to 'Show', @post
+'|
+=< link_to 'Back', posts_path
+
+p
+  strong User Name: 
+  = @post.user.name
