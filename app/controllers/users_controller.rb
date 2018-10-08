@@ -19,6 +19,9 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
+    if @user.email != current_user.email
+      render :show
+    end
   end
 
   # POST /users
