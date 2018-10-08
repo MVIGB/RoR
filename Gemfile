@@ -34,6 +34,9 @@ gem 'slim-rails'
 #gem html2slim (преобразует erb-формат в slim-формат)
 gem 'html2slim'
 
+#gem devise (аутентификация)
+gem 'devise'
+
 #gem kaminari (для постраницной навигации)
 gem 'kaminari'
 

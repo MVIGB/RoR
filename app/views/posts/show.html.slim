@@ -15,11 +15,10 @@ p
 
 p
   strong Comments:
-  table
-    - @post.comments.order(:created_at).each do |comment|
-      tr
-        td: b = comment.user.name
-        td = comment.body
+  = render partial: 'comments', collection: @comments
+
+p
+  = paginate  @comments        
 
 => link_to 'Edit', edit_post_path(@post)
 '|
