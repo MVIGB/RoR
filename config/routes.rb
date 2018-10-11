@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'home#index' #убираем root по умолчанию
   devise_for :users
   resources :users
   resources :posts

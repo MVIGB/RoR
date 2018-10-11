@@ -37,6 +37,12 @@ gem 'html2slim'
 #gem devise (аутентификация)
 gem 'devise'
 
+#gem webpacker (организация ассетов)
+gem 'webpacker'
+
+#gem foreman (запуск серверов rails и webpacker одной командой)
+gem 'foreman'
+
 #gem kaminari (для постраницной навигации)
 gem 'kaminari'
 
